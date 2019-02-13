@@ -195,7 +195,7 @@ CGFloat const SDTimeIndicatorMargin = 10.0f;
             }];
             _textIndicator.text = self.textForNormalState;
             
-            _timeIndicator.text = [NSString stringWithFormat:@"最后更新：%@", [self lastRefreshingTimeString]];
+            _timeIndicator.text = [NSString stringWithFormat:@"最後更新：%@", [self lastRefreshingTimeString]];
             _stateIndicatorView.hidden = NO;
             [_activityIndicatorView stopAnimating];
             _activityIndicatorView.hidden = YES;

@@ -32,9 +32,9 @@ typedef enum {
 // ---------------------------配置----------------------------------
 
 // 进入刷新状态时的提示文字
-#define SDRefreshViewRefreshingStateText @"正在加载最新数据,请稍候"
+#define SDRefreshViewRefreshingStateText @"正在加載最新數據,請稍候"
 // 进入即将刷新状态时的提示文字
-#define SDRefreshViewWillRefreshStateText @"松开即可加载最新数据"
+#define SDRefreshViewWillRefreshStateText @"鬆開即可加載最新數據"
 
 // ---------------------------配置----------------------------------
 

@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *parkingName;
+@property (weak, nonatomic) IBOutlet UILabel *parkingArea;
+@property (weak, nonatomic) IBOutlet UILabel *parkingAddress;
+@property (weak, nonatomic) IBOutlet UILabel *parkingOpenTime;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -31,7 +31,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.textForNormalState = @"下拉可以加载最新数据";
+        self.textForNormalState = @"下拉可以加載最新數據";
         self.stateIndicatorViewNormalTransformAngle = 0;
         self.stateIndicatorViewWillRefreshStateTransformAngle = M_PI;
         [self setRefreshState:SDRefreshViewStateNormal];
